@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  
+  /* Custom color overrides or utility mappings for Clean Australia palette */
+  --color-clean-white: #FFFFFF;
+  --color-clean-navy: #0F2942;
+  --color-clean-navy-light: #1A3F60;
+  --color-clean-mint: #00C853;
+  --color-clean-mint-dark: #00A844;
+}
+
+/* Base style adjustments */
+html {
+  font-family: var(--font-sans);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Ensure all clickable and interactive elements have a cursor pointer */
+button,
+a,
+select,
+input[type="submit"],
+input[type="button"],
+[role="button"] {
+  cursor: pointer !important;
+}

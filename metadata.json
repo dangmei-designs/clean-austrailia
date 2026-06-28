@@ -1,0 +1,6 @@
+{
+  "name": "Clean Australia",
+  "description": "Trusted residential cleaning services for busy Australian families. Get an instant quote and book in 60 seconds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
