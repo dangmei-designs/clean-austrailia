@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 export default defineConfig(() => {
   return {
     // Add the base property here using your exact repository name
-    base: '/clean-austrailia/', 
+    base: '/clean-australia/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
